@@ -1,0 +1,30 @@
+/home/kat/buntu/africalim_workshop/africalim-venv/lib/python3.10/site-packages/stimela:
+  version: 2.0.1
+  mtime: 1733148981.9194744
+  mtime_str: Mon Dec  2 14:16:21 2024
+/home/kat/buntu/africalim_workshop/africalim-venv/lib/python3.10/site-packages/stimela/config.py:
+  origin: /home/kat/buntu/africalim_workshop/africalim-venv/lib/python3.10/site-packages/stimela
+/home/kat/buntu/africalim_workshop/africalim-venv/lib/python3.10/site-packages/scabha/configuratt/__init__.py:
+  origin: /home/kat/buntu/africalim_workshop/africalim-venv/lib/python3.10/site-packages/stimela
+/home/kat/buntu/automated_calibration/venv/lib/python3.10/site-packages/scabha/configuratt/cache.py:
+  version: null
+  mtime: 1712389207.760533
+  mtime_str: Sat Apr  6 07:40:07 2024
+  md5hash: 413c28261f00873293bdb574eda39cf8
+/home/kat/buntu/africalim_workshop/africalim-venv/lib/python3.10/site-packages/stimela/stimela.conf:
+  mtime: 1733148981.8714721
+  mtime_str: Mon Dec  2 14:16:21 2024
+  md5hash: d42ce6769ec92fc4727878c48a0aebe2
+/home/kat/buntu/africalim_workshop/africalim-venv/lib/python3.10/site-packages/cultcargo/stimela.conf:
+  mtime: 1733148988.843782
+  mtime_str: Mon Dec  2 14:16:28 2024
+  md5hash: d8547362d63e7bb23c550ef5ac13fc0b
+/home/kat/buntu/africalim_workshop/africalim-venv/lib/python3.10/site-packages/cultcargo/genesis/cult-cargo-base.yml:
+  mtime: 1733148988.8317814
+  mtime_str: Mon Dec  2 14:16:28 2024
+  md5hash: 3d21e319279df2981906e847d7b3a4dc
+/home/kat/buntu/africalim_workshop/africalim-venv/lib/python3.10/site-packages/scabha/configuratt/cache.py:
+  version: null
+  mtime: 1733148981.8554716
+  mtime_str: Mon Dec  2 14:16:21 2024
+  md5hash: 413c28261f00873293bdb574eda39cf8
