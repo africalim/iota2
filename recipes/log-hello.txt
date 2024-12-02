@@ -1,14 +1,14 @@
-2024-12-02 14:20:36 STIMELA.hello INFO: selecting recipe steps for (sub)recipe: [bold green]hello[/bold green]
-2024-12-02 14:20:37 STIMELA.hello INFO: ### validated inputs
-2024-12-02 14:20:37 STIMELA.hello INFO: recipe 'hello':
-2024-12-02 14:20:37 STIMELA.hello INFO:   name = Buntu
-2024-12-02 14:20:37 STIMELA.hello INFO: running recipe 'hello'
-2024-12-02 14:20:37 STIMELA.hello INFO: processing step 'ola'
-2024-12-02 14:20:37 STIMELA.hello INFO:   (this runs the greeter cab to print a greeting)
-2024-12-02 14:20:55 STIMELA.hello INFO: processing step 'two-up'
-2024-12-02 14:21:15 STIMELA.hello INFO: processing step 'print'
-2024-12-02 14:21:35 STIMELA.hello INFO: recipe 'hello' executed successfully
-2024-12-02 14:21:36 STIMELA.hello INFO: run successful after 0:01:00
-2024-12-02 14:21:36 STIMELA.hello INFO: saved full profiling stats to ./stimela.stats.full
-2024-12-02 14:21:36 STIMELA.hello INFO: saved summary to ./stimela.stats.summary.txt
-2024-12-02 14:21:36 STIMELA.hello INFO: last log directory was [bold green].[/bold green]
+2024-12-02 14:22:40 STIMELA.hello INFO: selecting recipe steps for (sub)recipe: [bold green]hello[/bold green]
+2024-12-02 14:22:41 STIMELA.hello INFO: ### validated inputs
+2024-12-02 14:22:41 STIMELA.hello INFO: recipe 'hello':
+2024-12-02 14:22:41 STIMELA.hello INFO:   name = Katlego
+2024-12-02 14:22:41 STIMELA.hello INFO: running recipe 'hello'
+2024-12-02 14:22:41 STIMELA.hello INFO: processing step 'ola'
+2024-12-02 14:22:41 STIMELA.hello INFO:   (this runs the greeter cab to print a greeting)
+2024-12-02 14:23:00 STIMELA.hello INFO: processing step 'two-up'
+2024-12-02 14:23:19 STIMELA.hello INFO: processing step 'print'
+2024-12-02 14:23:38 STIMELA.hello INFO: recipe 'hello' executed successfully
+2024-12-02 14:23:39 STIMELA.hello INFO: run successful after 0:00:59
+2024-12-02 14:23:40 STIMELA.hello INFO: saved full profiling stats to ./stimela.stats.full
+2024-12-02 14:23:40 STIMELA.hello INFO: saved summary to ./stimela.stats.summary.txt
+2024-12-02 14:23:40 STIMELA.hello INFO: last log directory was [bold green].[/bold green]

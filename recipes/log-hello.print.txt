@@ -1,20 +1,20 @@
-2024-12-02 14:21:16 STIMELA.hello.print INFO: ### validated inputs
-2024-12-02 14:21:16 STIMELA.hello.print INFO: cab print:
-2024-12-02 14:21:16 STIMELA.hello.print INFO:   what = greeting2.txt
-2024-12-02 14:21:17 STIMELA.hello.print INFO: using image quay.io/stimela2/python-astro:cc0.1.3
-2024-12-02 14:21:17 STIMELA.hello.print INFO: selecting predefined pod type 'tiny' for job
-2024-12-02 14:21:18 STIMELA.hello.print INFO: found existing PVC 'iota-efs-pvc' of size 5Gi, status is Bound
-2024-12-02 14:21:20 STIMELA.hello.print INFO: starting pod kat--hello--print--9546bfb2 to run [python]
+2024-12-02 14:23:20 STIMELA.hello.print INFO: ### validated inputs
+2024-12-02 14:23:20 STIMELA.hello.print INFO: cab print:
+2024-12-02 14:23:20 STIMELA.hello.print INFO:   what = greeting2.txt
+2024-12-02 14:23:21 STIMELA.hello.print INFO: using image quay.io/stimela2/python-astro:cc0.1.3
+2024-12-02 14:23:21 STIMELA.hello.print INFO: selecting predefined pod type 'tiny' for job
+2024-12-02 14:23:22 STIMELA.hello.print INFO: found existing PVC 'iota-efs-pvc' of size 5Gi, status is Bound
+2024-12-02 14:23:24 STIMELA.hello.print INFO: starting pod kat--hello--print--34a2c8f5 to run [python]
 volume-step-init# Created directory /mnt/data/iota-test
 volume-step-init# Checking /mnt/data/iota-test/greeting2.txt: exists
-2024-12-02 14:21:28 STIMELA.hello.print INFO:   pod started after 0:00:11
-2024-12-02 14:21:28 STIMELA.hello.print INFO: running: cd /mnt/data/iota-test; python -u -c 'import sys, json
+2024-12-02 14:23:31 STIMELA.hello.print INFO:   pod started after 0:00:10
+2024-12-02 14:23:31 STIMELA.hello.print INFO: running: cd /mnt/data/iota-test; python -u -c 'import sys, json
 _params = json.loads(sys.argv[1])
 what = _params["what"]
 print(open(what).read())' '{"what": "greeting2.txt"}'
-# Hello Buntu!
-# Hello Buntu!
+# Hello Katlego!
+# Hello Katlego!
 # 
-2024-12-02 14:21:30 STIMELA.hello.print INFO: container state is 'terminated', exit code is 0
-2024-12-02 14:21:30 STIMELA.hello.print INFO: [python] returns exit code 0 after 0:00:14
-2024-12-02 14:21:32 STIMELA.hello.print INFO: deleting pod kat--hello--print--9546bfb2
+2024-12-02 14:23:33 STIMELA.hello.print INFO: container state is 'terminated', exit code is 0
+2024-12-02 14:23:33 STIMELA.hello.print INFO: [python] returns exit code 0 after 0:00:13
+2024-12-02 14:23:35 STIMELA.hello.print INFO: deleting pod kat--hello--print--34a2c8f5
