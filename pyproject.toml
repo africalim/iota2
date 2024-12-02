@@ -1,0 +1,12 @@
+[tom.poetry]
+name='iota'
+version = '0.0.1'
+description=" "
+authors=["Victoria", "Buntu", "Katlego"]
+packages = [{include="iota"}]
+readme="README.rst"
+
+[tool.poetry.dependencies]
+python="^3.10"
+
+
