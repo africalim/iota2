@@ -1,14 +1,14 @@
-2024-12-02 14:22:40 STIMELA INFO: saving config dependencies to ./stimela.config.deps
-2024-12-02 14:22:40 STIMELA INFO: will load recipe/config file hello-world4.yml
-2024-12-02 14:22:40 STIMELA INFO: will load recipe/config file kubeconfig.yaml
-2024-12-02 14:22:40 STIMELA INFO: treating 'hello' as a recipe or cab name
-2024-12-02 14:22:40 STIMELA INFO: selected recipe is 'hello'
-2024-12-02 14:22:40 STIMELA INFO: pre-validating the recipe
-2024-12-02 14:22:40 STIMELA INFO: recipe logs will be saved under .
-2024-12-02 14:22:40 STIMELA INFO: saved recipe dependencies to ./stimela.recipe.deps
-2024-12-02 14:22:41 STIMELA.kube INFO: initializing kube backend
-2024-12-02 14:22:41 STIMELA.kube INFO: k8s context is bngcebetsha-rarg-test-eks-cluster, namespace is iota
-2024-12-02 14:22:41 STIMELA.kube INFO: checking for k8s pods from other sessions
-2024-12-02 14:22:41 STIMELA.kube INFO: no pods running
-2024-12-02 14:22:41 STIMELA.kube INFO: found existing PVC 'iota-efs-pvc' of size 5Gi, status is Bound
-2024-12-02 14:23:39 STIMELA.kube INFO: closing kube backend
+2024-12-02 14:28:03 STIMELA INFO: saving config dependencies to ./stimela.config.deps
+2024-12-02 14:28:03 STIMELA INFO: will load recipe/config file hello-world4.yml
+2024-12-02 14:28:03 STIMELA INFO: will load recipe/config file kubeconfig.yaml
+2024-12-02 14:28:03 STIMELA INFO: treating 'hello' as a recipe or cab name
+2024-12-02 14:28:03 STIMELA INFO: selected recipe is 'hello'
+2024-12-02 14:28:03 STIMELA INFO: pre-validating the recipe
+2024-12-02 14:28:03 STIMELA INFO: recipe logs will be saved under .
+2024-12-02 14:28:03 STIMELA INFO: saved recipe dependencies to ./stimela.recipe.deps
+2024-12-02 14:28:04 STIMELA.kube INFO: initializing kube backend
+2024-12-02 14:28:04 STIMELA.kube INFO: k8s context is bngcebetsha-rarg-test-eks-cluster, namespace is iota
+2024-12-02 14:28:04 STIMELA.kube INFO: checking for k8s pods from other sessions
+2024-12-02 14:28:05 STIMELA.kube INFO: no pods running
+2024-12-02 14:28:05 STIMELA.kube INFO: found existing PVC 'iota-efs-pvc' of size 5Gi, status is Bound
+2024-12-02 14:29:05 STIMELA.kube INFO: closing kube backend

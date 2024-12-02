@@ -1,232 +1,121 @@
 hello:
-  elapsed: 57.164141
+  elapsed: 59.624395
   avg:
-    cpu: 2.524822695035461
+    cpu: 2.6482758620689655
     mem_used: 0.0
     mem_total: 94.0
-    load: 0.04267785904255319
+    load: 0.05110115840517242
     read_count: 0.0
     read_gb: 0.0
     read_gbps: 0.0
     read_ms: 0.0
-    write_count: 2.1347517730496453
-    write_gb: 1.331085854388298e-05
-    write_gbps: 1.3373377782690665e-05
-    write_ms: 11.97872340425532
+    write_count: 1.2344827586206897
+    write_gb: 7.734627559267242e-06
+    write_gbps: 6.538410698411149e-06
+    write_ms: 5.627586206896551
     num_samples: 1.0
   peak:
-    cpu: 14.0
+    cpu: 8.0
     mem_used: 0
     mem_total: 94
-    load: 0.0703125
+    load: 0.10791015625
     read_count: 0
     read_gb: 0
     read_gbps: 0
     read_ms: 0
-    write_count: 23
-    write_gb: 0.000194549560546875
-    write_gbps: 0.0001835419963969601
-    write_ms: 205
+    write_count: 20
+    write_gb: 0.0001373291015625
+    write_gbps: 0.00012933685965686378
+    write_ms: 128
     num_samples: 1
   total:
     read_count: 0
     read_gb: 0.0
     read_ms: 0
-    write_count: 301
-    write_gb: 0.0018768310546875
-    write_ms: 1689
+    write_count: 179
+    write_gb: 0.00112152099609375
+    write_ms: 816
 hello.ola:
-  elapsed: 16.132976
+  elapsed: 17.118035
+  avg:
+    cpu: 2.9310344827586206
+    mem_used: 0.0
+    mem_total: 94.0
+    load: 0.06763537176724138
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 2.8275862068965516
+    write_gb: 1.591649548760776e-05
+    write_gbps: 1.2191785992607666e-05
+    write_ms: 14.724137931034482
+    num_samples: 1.0
+  peak:
+    cpu: 8.0
+    mem_used: 0
+    mem_total: 94
+    load: 0.08056640625
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 20
+    write_gb: 0.0001373291015625
+    write_gbps: 0.00012933685965686378
+    write_ms: 128
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 82
+    write_gb: 0.000461578369140625
+    write_ms: 427
+hello.ola.open.kube-init:
+  elapsed: 9.587636
   avg:
     cpu: 3.3333333333333335
     mem_used: 0.0
     mem_total: 94.0
-    load: 0.05797887731481482
+    load: 0.07090928819444445
     read_count: 0.0
     read_gb: 0.0
     read_gbps: 0.0
     read_ms: 0.0
-    write_count: 4.888888888888889
-    write_gb: 3.150657371238426e-05
-    write_gbps: 2.9716346230817987e-05
-    write_ms: 31.444444444444443
+    write_count: 4.444444444444445
+    write_gb: 2.5007459852430555e-05
+    write_gbps: 1.907315742215427e-05
+    write_ms: 23.444444444444443
     num_samples: 1.0
   peak:
-    cpu: 14.0
+    cpu: 8.0
     mem_used: 0
     mem_total: 94
-    load: 0.064453125
+    load: 0.07373046875
     read_count: 0
     read_gb: 0
     read_gbps: 0
     read_ms: 0
-    write_count: 23
-    write_gb: 0.000194549560546875
-    write_gbps: 0.0001835419963969601
-    write_ms: 205
+    write_count: 20
+    write_gb: 0.0001373291015625
+    write_gbps: 0.00012933685965686378
+    write_ms: 128
     num_samples: 1
   total:
     read_count: 0
     read_gb: 0.0
     read_ms: 0
-    write_count: 132
-    write_gb: 0.000850677490234375
-    write_ms: 849
-hello.ola.open.kube-init:
-  elapsed: 8.526863
-  avg:
-    cpu: 2.375
-    mem_used: 0.0
-    mem_total: 94.0
-    load: 0.06048583984375
-    read_count: 0.0
-    read_gb: 0.0
-    read_gbps: 0.0
-    read_ms: 0.0
-    write_count: 7.75
-    write_gb: 4.9114227294921875e-05
-    write_gbps: 4.061033405663247e-05
-    write_ms: 52.125
-    num_samples: 1.0
-  peak:
-    cpu: 5.0
-    mem_used: 0
-    mem_total: 94
-    load: 0.064453125
-    read_count: 0
-    read_gb: 0
-    read_gbps: 0
-    read_ms: 0
-    write_count: 23
-    write_gb: 0.000194549560546875
-    write_gbps: 0.0001835419963969601
-    write_ms: 205
-    num_samples: 1
-  total:
-    read_count: 0
-    read_gb: 0.0
-    read_ms: 0
-    write_count: 62
-    write_gb: 0.000392913818359375
-    write_ms: 417
+    write_count: 40
+    write_gb: 0.000225067138671875
+    write_ms: 211
 hello.ola.open.kube-run:
-  elapsed: 1.164365
+  elapsed: 0.129719
   avg:
-    cpu: 4.5
+    cpu: 2.5
     mem_used: 0.0
     mem_total: 94.0
-    load: 0.05419921875
-    read_count: 0.0
-    read_gb: 0.0
-    read_gbps: 0.0
-    read_ms: 0.0
-    write_count: 1.0
-    write_gb: 5.7220458984375e-06
-    write_gbps: 5.396349240054039e-06
-    write_ms: 0.5
-    num_samples: 1.0
-  peak:
-    cpu: 7.0
-    mem_used: 0
-    mem_total: 94
-    load: 0.05419921875
-    read_count: 0
-    read_gb: 0
-    read_gbps: 0
-    read_ms: 0
-    write_count: 2
-    write_gb: 1.1444091796875e-05
-    write_gbps: 1.0792698480108078e-05
-    write_ms: 1
-    num_samples: 1
-  total:
-    read_count: 0
-    read_gb: 0.0
-    read_ms: 0
-    write_count: 2
-    write_gb: 1.1444091796875e-05
-    write_ms: 1
-hello.two-up:
-  elapsed: 17.098531
-  avg:
-    cpu: 2.4827586206896552
-    mem_used: 0.0
-    mem_total: 94.0
-    load: 0.04172279094827586
-    read_count: 0.0
-    read_gb: 0.0
-    read_gbps: 0.0
-    read_ms: 0.0
-    write_count: 0.3448275862068966
-    write_gb: 3.288532125538793e-06
-    write_gbps: 5.473371275959945e-06
-    write_ms: 0.6206896551724138
-    num_samples: 1.0
-  peak:
-    cpu: 7.0
-    mem_used: 0
-    mem_total: 94
-    load: 0.0498046875
-    read_count: 0
-    read_gb: 0
-    read_gbps: 0
-    read_ms: 0
-    write_count: 3
-    write_gb: 3.0517578125e-05
-    write_gbps: 0.00012654704060856872
-    write_ms: 10
-    num_samples: 1
-  total:
-    read_count: 0
-    read_gb: 0.0
-    read_ms: 0
-    write_count: 10
-    write_gb: 9.5367431640625e-05
-    write_ms: 18
-hello.two-up.data.kube-init:
-  elapsed: 9.579973
-  avg:
-    cpu: 2.6666666666666665
-    mem_used: 0.0
-    mem_total: 94.0
-    load: 0.04367404513888889
-    read_count: 0.0
-    read_gb: 0.0
-    read_gbps: 0.0
-    read_ms: 0.0
-    write_count: 0.3333333333333333
-    write_gb: 3.3908420138888887e-06
-    write_gbps: 1.615686623598078e-06
-    write_ms: 0.3333333333333333
-    num_samples: 1.0
-  peak:
-    cpu: 7.0
-    mem_used: 0
-    mem_total: 94
-    load: 0.04541015625
-    read_count: 0
-    read_gb: 0
-    read_gbps: 0
-    read_ms: 0
-    write_count: 2
-    write_gb: 2.288818359375e-05
-    write_gbps: 1.0967372994905446e-05
-    write_ms: 2
-    num_samples: 1
-  total:
-    read_count: 0
-    read_gb: 0.0
-    read_ms: 0
-    write_count: 3
-    write_gb: 3.0517578125e-05
-    write_ms: 3
-hello.two-up.data.kube-run:
-  elapsed: 0.077274
-  avg:
-    cpu: 2.0
-    mem_used: 0.0
-    mem_total: 94.0
-    load: 0.0380859375
+    load: 0.0615234375
     read_count: 0.0
     read_gb: 0.0
     read_gbps: 0.0
@@ -240,7 +129,118 @@ hello.two-up.data.kube-run:
     cpu: 3.0
     mem_used: 0
     mem_total: 94
-    load: 0.0380859375
+    load: 0.0615234375
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 0
+    write_gb: 0
+    write_gbps: 0
+    write_ms: 0
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 0
+    write_gb: 0.0
+    write_ms: 0
+hello.two-up:
+  elapsed: 17.255575
+  avg:
+    cpu: 2.5517241379310347
+    mem_used: 0.0
+    mem_total: 94.0
+    load: 0.047868399784482756
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 0.7241379310344828
+    write_gb: 5.6562752559267244e-06
+    write_gbps: 5.653751805988241e-06
+    write_ms: 2.5517241379310347
+    num_samples: 1.0
+  peak:
+    cpu: 8.0
+    mem_used: 0
+    mem_total: 94
+    load: 0.05615234375
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 9
+    write_gb: 3.4332275390625e-05
+    write_gbps: 6.163556887156757e-05
+    write_ms: 53
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 21
+    write_gb: 0.000164031982421875
+    write_ms: 74
+hello.two-up.data.kube-init:
+  elapsed: 9.764649
+  avg:
+    cpu: 2.7777777777777777
+    mem_used: 0.0
+    mem_total: 94.0
+    load: 0.050347222222222224
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 0.5555555555555556
+    write_gb: 5.933973524305556e-06
+    write_gbps: 4.028210511840751e-06
+    write_ms: 1.0
+    num_samples: 1.0
+  peak:
+    cpu: 8.0
+    mem_used: 0
+    mem_total: 94
+    load: 0.05615234375
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 2
+    write_gb: 2.288818359375e-05
+    write_gbps: 2.1940212818501025e-05
+    write_ms: 5
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 5
+    write_gb: 5.340576171875e-05
+    write_ms: 9
+hello.two-up.data.kube-run:
+  elapsed: 0.204787
+  avg:
+    cpu: 2.0
+    mem_used: 0.0
+    mem_total: 94.0
+    load: 0.04296875
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 0.0
+    write_gb: 0.0
+    write_gbps: 0.0
+    write_ms: 0.0
+    num_samples: 1.0
+  peak:
+    cpu: 3.0
+    mem_used: 0
+    mem_total: 94
+    load: 0.04296875
     read_count: 0
     read_gb: 0
     read_gbps: 0
@@ -258,86 +258,86 @@ hello.two-up.data.kube-run:
     write_gb: 0.0
     write_ms: 0
 hello.print:
-  elapsed: 17.202836
+  elapsed: 18.221147
   avg:
-    cpu: 1.7857142857142858
+    cpu: 2.6551724137931036
     mem_used: 0.0
     mem_total: 94.0
-    load: 0.029523577008928572
+    load: 0.03630118534482758
     read_count: 0.0
     read_gb: 0.0
     read_gbps: 0.0
     read_ms: 0.0
-    write_count: 1.8928571428571428
-    write_gb: 9.5367431640625e-06
-    write_gbps: 7.050049765847448e-06
-    write_ms: 8.821428571428571
+    write_count: 0.3793103448275862
+    write_gb: 3.1569908405172413e-06
+    write_gbps: 2.5417048865785734e-06
+    write_ms: 0.6206896551724138
     num_samples: 1.0
   peak:
-    cpu: 4.0
+    cpu: 8.0
     mem_used: 0
     mem_total: 94
-    load: 0.03466796875
+    load: 0.10791015625
     read_count: 0
     read_gb: 0
     read_gbps: 0
     read_ms: 0
-    write_count: 8
-    write_gb: 6.103515625e-05
-    write_gbps: 5.9732977343902914e-05
-    write_ms: 67
+    write_count: 2
+    write_gb: 2.288818359375e-05
+    write_gbps: 2.1042039239070878e-05
+    write_ms: 13
     num_samples: 1
   total:
     read_count: 0
     read_gb: 0.0
     read_ms: 0
-    write_count: 53
-    write_gb: 0.00026702880859375
-    write_ms: 247
+    write_count: 11
+    write_gb: 9.1552734375e-05
+    write_ms: 18
 hello.print.print.kube-init:
-  elapsed: 9.581089
+  elapsed: 10.595655
   avg:
-    cpu: 1.625
+    cpu: 2.5555555555555554
     mem_used: 0.0
     mem_total: 94.0
-    load: 0.0313720703125
+    load: 0.03542751736111111
     read_count: 0.0
     read_gb: 0.0
     read_gbps: 0.0
     read_ms: 0.0
-    write_count: 3.0
-    write_gb: 1.52587890625e-05
-    write_gbps: 1.1068811136738438e-05
-    write_ms: 15.0
+    write_count: 0.4444444444444444
+    write_gb: 3.814697265625e-06
+    write_gbps: 2.9420236738386682e-06
+    write_ms: 0.2222222222222222
     num_samples: 1.0
   peak:
-    cpu: 3.0
+    cpu: 7.0
     mem_used: 0
     mem_total: 94
-    load: 0.03466796875
+    load: 0.0390625
     read_count: 0
     read_gb: 0
     read_gbps: 0
     read_ms: 0
-    write_count: 8
-    write_gb: 6.103515625e-05
-    write_gbps: 5.9732977343902914e-05
-    write_ms: 67
+    write_count: 2
+    write_gb: 2.288818359375e-05
+    write_gbps: 2.1042039239070878e-05
+    write_ms: 1
     num_samples: 1
   total:
     read_count: 0
     read_gb: 0.0
     read_ms: 0
-    write_count: 24
-    write_gb: 0.0001220703125
-    write_ms: 120
+    write_count: 4
+    write_gb: 3.4332275390625e-05
+    write_ms: 2
 hello.print.print.kube-run:
-  elapsed: 0.023754
+  elapsed: 1.079414
   avg:
-    cpu: 1.5
+    cpu: 2.5
     mem_used: 0.0
     mem_total: 94.0
-    load: 0.0263671875
+    load: 0.02978515625
     read_count: 0.0
     read_gb: 0.0
     read_gbps: 0.0
@@ -348,10 +348,10 @@ hello.print.print.kube-run:
     write_ms: 0.0
     num_samples: 1.0
   peak:
-    cpu: 2.0
+    cpu: 3.0
     mem_used: 0
     mem_total: 94
-    load: 0.0263671875
+    load: 0.02978515625
     read_count: 0
     read_gb: 0
     read_gbps: 0
