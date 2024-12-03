@@ -2,7 +2,7 @@
 name='iota'
 version = '0.0.1'
 description=" "
-authors=["Victoria", "Buntu", "Katlego"]
+authors=["Victoria", "Buntu", "Katlego", "Obakeng"]
 packages = [{include="iota"}]
 readme="README.rst"
 
