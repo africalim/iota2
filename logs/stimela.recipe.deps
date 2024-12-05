@@ -1,0 +1,63 @@
+/home/buntu/github/africalim_workshop/github_repos/stimela/lib/python3.10/site-packages/stimela:
+  version: 2.0.1.1
+  mtime: 1733217218.4054358
+  mtime_str: Tue Dec  3 11:13:38 2024
+/home/buntu/github/africalim_workshop/github_repos/stimela/lib/python3.10/site-packages/stimela/config.py:
+  origin: /home/buntu/github/africalim_workshop/github_repos/stimela/lib/python3.10/site-packages/stimela
+/home/buntu/github/africalim_workshop/github_repos/stimela/lib/python3.10/site-packages/scabha/configuratt/__init__.py:
+  origin: /home/buntu/github/africalim_workshop/github_repos/stimela/lib/python3.10/site-packages/stimela
+/home/buntu/github/africalim_workshop/github_repos/stimela/lib/python3.10/site-packages/scabha/configuratt/cache.py:
+  version: null
+  mtime: 1733217218.366439
+  mtime_str: Tue Dec  3 11:13:38 2024
+  md5hash: 413c28261f00873293bdb574eda39cf8
+/home/buntu/github/africalim_workshop/github_repos/stimela/lib/python3.10/site-packages/stimela/stimela.conf:
+  mtime: 1733217218.3754385
+  mtime_str: Tue Dec  3 11:13:38 2024
+  md5hash: 33a3969ba8a008b7cde77c62b72bcf4b
+/home/buntu/github/africalim_workshop/github_repos/stimela/lib/python3.10/site-packages/cultcargo/stimela.conf:
+  mtime: 1733217232.840218
+  mtime_str: Tue Dec  3 11:13:52 2024
+  md5hash: d8547362d63e7bb23c550ef5ac13fc0b
+? /home/buntu/github/africalim_workshop/github_repos/stimela/lib/python3.10/site-packages/cultcargo/genesis/cult-cargo-base.yml
+: mtime: 1733217232.8332186
+  mtime_str: Tue Dec  3 11:13:52 2024
+  md5hash: 3d21e319279df2981906e847d7b3a4dc
+/home/buntu/github/africalim_workshop/github_repos/iota2/recipes/luno_kgb.yaml:
+  mtime: 1733235632.2768042
+  mtime_str: Tue Dec  3 16:20:32 2024
+  md5hash: babbc459af8faef833df12aab4e65d79
+  git:
+    branch: main                03819b5 [origin/main] quartical first-gen
+    describe: heads/main-0-g03819b5cc05df13c
+    remotes:
+    - "origin\tgit@github.com:africalim/iota2.git (fetch)"
+    - "origin\tgit@github.com:africalim/iota2.git (push)"
+/home/buntu/github/africalim_workshop/github_repos/stimela/lib/python3.10/site-packages/cultcargo/quartical.yml:
+  mtime: 1733217232.840218
+  mtime_str: Tue Dec  3 11:13:52 2024
+  md5hash: 98e2bfef974ccabda0cb0624e649e2e1
+? /home/buntu/github/africalim_workshop/github_repos/stimela/lib/python3.10/site-packages/cultcargo/genesis/quartical/argument_schema.yaml
+: mtime: 1733217232.8362184
+  mtime_str: Tue Dec  3 11:13:52 2024
+  md5hash: 2e1efdf15d9b1237fd1b2a2e74236560
+/home/buntu/github/africalim_workshop/github_repos/iota2/recipes/kgb_kubeconfig.yaml:
+  mtime: 1733235621.1433606
+  mtime_str: Tue Dec  3 16:20:21 2024
+  md5hash: ce1d1c59caa21a6d5db4f6405c323a16
+  git:
+    branch: main                03819b5 [origin/main] quartical first-gen
+    describe: heads/main-0-g03819b5cc05df13c
+    remotes:
+    - "origin\tgit@github.com:africalim/iota2.git (fetch)"
+    - "origin\tgit@github.com:africalim/iota2.git (push)"
+/home/buntu/github/africalim_workshop/github_repos/iota2/recipes/kubeconfig.yaml:
+  mtime: 1733216524.4695644
+  mtime_str: Tue Dec  3 11:02:04 2024
+  md5hash: cbfaef3cfa074d1b5c7503e2d9477514
+  git:
+    branch: main                03819b5 [origin/main] quartical first-gen
+    describe: heads/main-0-g03819b5cc05df13c
+    remotes:
+    - "origin\tgit@github.com:africalim/iota2.git (fetch)"
+    - "origin\tgit@github.com:africalim/iota2.git (push)"

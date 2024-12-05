@@ -1,0 +1,370 @@
+first-gen:
+  elapsed: 1187.53959
+  avg:
+    cpu: 2.832540675844806
+    mem_used: 3.4843554443053817
+    mem_total: 15.0
+    load: 0.20652707974812265
+    read_count: 0.028785982478097622
+    read_gb: 1.4323018519242803e-06
+    read_gbps: 9.020194696058404e-07
+    read_ms: 0.011264080100125156
+    write_count: 12.79224030037547
+    write_gb: 0.00012503040299397685
+    write_gbps: 8.213550249621177e-05
+    write_ms: 8.178973717146434
+    num_samples: 1.0
+  peak:
+    cpu: 50.0
+    mem_used: 4
+    mem_total: 15
+    load: 0.4755859375
+    read_count: 19
+    read_gb: 0.001110076904296875
+    read_gbps: 0.0006975833267121185
+    read_ms: 6
+    write_count: 171
+    write_gb: 0.009822845458984375
+    write_gbps: 0.00655709223061754
+    write_ms: 238
+    num_samples: 1
+  total:
+    read_count: 23
+    read_gb: 0.0011444091796875
+    read_ms: 9
+    write_count: 10221
+    write_gb: 0.0998992919921875
+    write_ms: 6535
+first-gen.kgb:
+  elapsed: 1022.429551
+  avg:
+    cpu: 2.70975975975976
+    mem_used: 3.3828828828828827
+    mem_total: 15.0
+    load: 0.20986709365615616
+    read_count: 0.006006006006006006
+    read_gb: 5.154996304898649e-08
+    read_gbps: 3.473007432875073e-08
+    read_ms: 0.0045045045045045045
+    write_count: 12.65915915915916
+    write_gb: 0.00012939040725295608
+    write_gbps: 8.400963135599308e-05
+    write_ms: 8.2012012012012
+    num_samples: 1.0
+  peak:
+    cpu: 50.0
+    mem_used: 4
+    mem_total: 15
+    load: 0.4755859375
+    read_count: 1
+    read_gb: 1.52587890625e-05
+    read_gbps: 1.0532855011613981e-05
+    read_ms: 1
+    write_count: 156
+    write_gb: 0.009822845458984375
+    write_gbps: 0.00655709223061754
+    write_ms: 238
+    num_samples: 1
+  total:
+    read_count: 4
+    read_gb: 3.4332275390625e-05
+    read_ms: 3
+    write_count: 8431
+    write_gb: 0.08617401123046875
+    write_ms: 5462
+first-gen.kgb.quartical.kube-init:
+  elapsed: 37.831016
+  avg:
+    cpu: 3.4409090909090905
+    mem_used: 3.0454545454545454
+    mem_total: 15.0
+    load: 0.3980158025568182
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 9.681818181818182
+    write_gb: 0.00013386119495738637
+    write_gbps: 6.536389665283136e-05
+    write_ms: 8.227272727272727
+    num_samples: 1.0
+  peak:
+    cpu: 16.7
+    mem_used: 4
+    mem_total: 15
+    load: 0.4755859375
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 42
+    write_gb: 0.00110626220703125
+    write_gbps: 0.0004613276025913502
+    write_ms: 32
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 213
+    write_gb: 0.0029449462890625
+    write_ms: 181
+first-gen.kgb.quartical.kube-run:
+  elapsed: 980.498872
+  avg:
+    cpu: 2.683962264150944
+    mem_used: 3.388364779874214
+    mem_total: 15.0
+    load: 0.20399868563286164
+    read_count: 0.006289308176100629
+    read_gb: 5.398156507959906e-08
+    read_gbps: 3.6368285381993694e-08
+    read_ms: 0.0047169811320754715
+    write_count: 12.7562893081761
+    write_gb: 0.0001300235964217276
+    write_gbps: 8.451054968843458e-05
+    write_ms: 8.272012578616351
+    num_samples: 1.0
+  peak:
+    cpu: 50.0
+    mem_used: 4
+    mem_total: 15
+    load: 0.40087890625
+    read_count: 1
+    read_gb: 1.52587890625e-05
+    read_gbps: 1.0532855011613981e-05
+    read_ms: 1
+    write_count: 156
+    write_gb: 0.009822845458984375
+    write_gbps: 0.00655709223061754
+    write_ms: 238
+    num_samples: 1
+  total:
+    read_count: 4
+    read_gb: 3.4332275390625e-05
+    read_ms: 3
+    write_count: 8113
+    write_gb: 0.08269500732421875
+    write_ms: 5261
+first-gen.g_to_abs:
+  elapsed: 7.692874
+  avg:
+    cpu: 4.050000000000001
+    mem_used: 4.0
+    mem_total: 15.0
+    load: 0.0737575954861111
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 4.111111111111111
+    write_gb: 2.9669867621527777e-05
+    write_gbps: 4.096166753405514e-05
+    write_ms: 2.5
+    num_samples: 1.0
+  peak:
+    cpu: 16.7
+    mem_used: 4
+    mem_total: 15
+    load: 0.07763671875
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 29
+    write_gb: 0.000270843505859375
+    write_gbps: 0.00020874672341600217
+    write_ms: 13
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 74
+    write_gb: 0.0005340576171875
+    write_ms: 45
+first-gen.g_to_abs.G2abs.kube-init:
+  elapsed: 4.933106
+  avg:
+    cpu: 4.387499999999999
+    mem_used: 4.0
+    mem_total: 15.0
+    load: 0.0760498046875
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 5.625
+    write_gb: 4.482269287109375e-05
+    write_gbps: 3.951824419816168e-05
+    write_ms: 3.0
+    num_samples: 1.0
+  peak:
+    cpu: 16.7
+    mem_used: 4
+    mem_total: 15
+    load: 0.07763671875
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 29
+    write_gb: 0.000270843505859375
+    write_gbps: 0.0002000415867953692
+    write_ms: 11
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 45
+    write_gb: 0.00035858154296875
+    write_ms: 24
+first-gen.g_to_abs.G2abs.kube-run:
+  elapsed: 0.0
+  avg:
+    cpu: 0.0
+    mem_used: 4.0
+    mem_total: 15.0
+    load: 0.0712890625
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 0.0
+    write_gb: 0.0
+    write_gbps: 0.0
+    write_ms: 0.0
+    num_samples: 1.0
+  peak:
+    cpu: 0
+    mem_used: 4
+    mem_total: 15
+    load: 0.0712890625
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 0
+    write_gb: 0
+    write_gbps: 0
+    write_ms: 0
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 0
+    write_gb: 0.0
+    write_ms: 0
+first-gen.phasecal:
+  elapsed: 156.388561
+  avg:
+    cpu: 3.120720720720721
+    mem_used: 4.0
+    mem_total: 15.0
+    load: 0.2073435740427928
+    read_count: 0.17117117117117117
+    read_gb: 1.0000692831503378e-05
+    read_gbps: 6.284534474883951e-06
+    read_ms: 0.05405405405405406
+    write_count: 15.45945945945946
+    write_gb: 0.00011883984814893018
+    write_gbps: 8.052740536728658e-05
+    write_ms: 9.26126126126126
+    num_samples: 1.0
+  peak:
+    cpu: 24.7
+    mem_used: 4
+    mem_total: 15
+    load: 0.3271484375
+    read_count: 19
+    read_gb: 0.001110076904296875
+    read_gbps: 0.0006975833267121185
+    read_ms: 6
+    write_count: 171
+    write_gb: 0.001300811767578125
+    write_gbps: 0.0008685958612383421
+    write_ms: 142
+    num_samples: 1
+  total:
+    read_count: 19
+    read_gb: 0.001110076904296875
+    read_ms: 6
+    write_count: 1716
+    write_gb: 0.01319122314453125
+    write_ms: 1028
+first-gen.phasecal.quartical.kube-init:
+  elapsed: 9.125349
+  avg:
+    cpu: 5.622222222222223
+    mem_used: 4.0
+    mem_total: 15.0
+    load: 0.11848958333333333
+    read_count: 0.0
+    read_gb: 0.0
+    read_gbps: 0.0
+    read_ms: 0.0
+    write_count: 4.111111111111111
+    write_gb: 3.3060709635416664e-05
+    write_gbps: 1.7066151294318527e-05
+    write_ms: 2.0
+    num_samples: 1.0
+  peak:
+    cpu: 24.7
+    mem_used: 4
+    mem_total: 15
+    load: 0.14599609375
+    read_count: 0
+    read_gb: 0
+    read_gbps: 0
+    read_ms: 0
+    write_count: 33
+    write_gb: 0.00020599365234375
+    write_gbps: 0.00010471333959112247
+    write_ms: 14
+    num_samples: 1
+  total:
+    read_count: 0
+    read_gb: 0.0
+    read_ms: 0
+    write_count: 37
+    write_gb: 0.00029754638671875
+    write_ms: 18
+first-gen.phasecal.quartical.kube-run:
+  elapsed: 144.734503
+  avg:
+    cpu: 2.8360824742268043
+    mem_used: 4.0
+    mem_total: 15.0
+    load: 0.21560889175257733
+    read_count: 0.1958762886597938
+    read_gb: 1.1444091796875e-05
+    read_gbps: 7.191580687753799e-06
+    read_ms: 0.061855670103092786
+    write_count: 17.072164948453608
+    write_gb: 0.00013076152998147553
+    write_gbps: 8.651935610050644e-05
+    write_ms: 9.8659793814433
+    num_samples: 1.0
+  peak:
+    cpu: 6.5
+    mem_used: 4
+    mem_total: 15
+    load: 0.3271484375
+    read_count: 19
+    read_gb: 0.001110076904296875
+    read_gbps: 0.0006975833267121185
+    read_ms: 6
+    write_count: 171
+    write_gb: 0.001300811767578125
+    write_gbps: 0.0008685958612383421
+    write_ms: 142
+    num_samples: 1
+  total:
+    read_count: 19
+    read_gb: 0.001110076904296875
+    read_ms: 6
+    write_count: 1656
+    write_gb: 0.012683868408203125
+    write_ms: 957

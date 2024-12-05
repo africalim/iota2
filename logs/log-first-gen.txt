@@ -1,0 +1,15 @@
+2024-12-03 16:29:27 STIMELA.first-gen INFO: selecting recipe steps for (sub)recipe: [bold green]1gc[/bold green]
+2024-12-03 16:29:27 STIMELA.first-gen INFO: ### validated inputs
+2024-12-03 16:29:27 STIMELA.first-gen INFO: recipe '1gc':
+2024-12-03 16:29:27 STIMELA.first-gen INFO:   basedir = /mnt/data/iota-test
+2024-12-03 16:29:27 STIMELA.first-gen INFO:   model-column = MODEL_DATA
+2024-12-03 16:29:28 STIMELA.first-gen INFO: running recipe '1gc'
+2024-12-03 16:29:28 STIMELA.first-gen INFO: processing step 'kgb'
+2024-12-03 16:29:28 STIMELA.first-gen INFO:   (GKB on the primary where G = time variable complex gain, K = per scan delay B = frequency variable complex gain (bandpass))
+2024-12-03 16:46:30 STIMELA.first-gen INFO: processing step 'g_to_abs'
+2024-12-03 16:46:30 STIMELA.first-gen INFO:   (Replace G with abs(G) since we won't need the phase again)
+2024-12-03 16:46:38 STIMELA.first-gen INFO: processing step 'phasecal'
+2024-12-03 16:46:38 STIMELA.first-gen INFO:   (Delay and offset on the secondary)
+2024-12-03 16:49:15 STIMELA.first-gen INFO: saved full profiling stats to logs/stimela.stats.full
+2024-12-03 16:49:15 STIMELA.first-gen INFO: saved summary to logs/stimela.stats.summary.txt
+2024-12-03 16:49:15 STIMELA.first-gen INFO: last log directory was [bold green]logs[/bold green]

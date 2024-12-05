@@ -1,0 +1,243 @@
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO: ### validated inputs
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO: cab quartical:
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_ms.path = s3://ratt-public-data/LBAND_LUNO_CALIBRATORS.zarr
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_ms.data_column = DATA
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_ms.time_chunk = 0
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_ms.freq_chunk = 0
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_ms.is_bda = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_ms.group_by = ['FIELD_ID', 'DATA_DESC_ID', 'SCAN_NUMBER']
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_ms.select_corr = [0, 3]
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_ms.select_fields = [1]
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_ms.select_ddids = []
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_ms.select_uv_range = [0.0, 0.0]
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_model.recipe = MODEL_DATA
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_model.beam_l_axis = X
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_model.beam_m_axis = Y
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_model.invert_uvw = True
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_model.source_chunks = 500
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   input_model.apply_p_jones = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   output.gain_directory = /mnt/data/iota-test/gkb.qc
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   output.log_directory = /mnt/data/iota-test/
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   output.log_to_terminal = True
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   output.overwrite = True
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   output.flags = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   output.apply_p_jones_inv = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   output.compute_baseline_corrections = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   output.apply_baseline_corrections = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   mad_flags.enable = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   mad_flags.whitening = disabled
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   mad_flags.threshold_bl = 5.0
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   mad_flags.threshold_global = 10.0
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   mad_flags.max_deviation = 0.0
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   mad_flags.use_off_diagonals = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   solver.terms = ['G', 'K', 'B']
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   solver.iter_recipe = [150, 150, 150]
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   solver.propagate_flags = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   solver.robust = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   solver.threads = 16
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   solver.convergence_fraction = 0.99
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   solver.convergence_criteria = 1e-06
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   solver.reference_antenna = 2
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   dask.threads = 1
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   dask.workers = 2
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   dask.scheduler = distributed
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   G.type = diag_complex
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   G.solve_per = antenna
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   G.direction_dependent = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   G.pinned_directions = [0]
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   G.time_interval = 0
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   G.freq_interval = 0
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   G.interp_mode = reim
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   G.interp_method = 2dlinear
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   G.respect_scan_boundaries = True
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   G.initial_estimate = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   K.type = delay
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   K.solve_per = antenna
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   K.direction_dependent = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   K.pinned_directions = [0]
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   K.time_interval = 0
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   K.freq_interval = 0
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   K.interp_mode = reim
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   K.interp_method = 2dlinear
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   K.respect_scan_boundaries = True
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   K.initial_estimate = True
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   B.type = diag_complex
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   B.solve_per = antenna
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   B.direction_dependent = False
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   B.pinned_directions = [0]
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   B.time_interval = 0
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   B.freq_interval = 8
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   B.interp_mode = reim
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   B.interp_method = 2dlinear
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   B.respect_scan_boundaries = True
+2024-12-03 16:29:28 STIMELA.first-gen.kgb INFO:   B.initial_estimate = False
+2024-12-03 16:29:29 STIMELA.first-gen.kgb INFO: using image quay.io/stimela2/quartical:0.2.5-cc0.1.3
+2024-12-03 16:29:29 STIMELA.first-gen.kgb INFO: defining dask job with a cluster of 2 workers
+2024-12-03 16:29:29 STIMELA.first-gen.kgb INFO: selecting predefined pod type 'pudgy' for worker
+2024-12-03 16:29:29 STIMELA.first-gen.kgb INFO: setting worker memory limit to 58Gi
+2024-12-03 16:29:29 STIMELA.first-gen.kgb INFO: setting worker CPU request to 9
+2024-12-03 16:29:29 STIMELA.first-gen.kgb INFO: selecting predefined pod type 'scheduler' for scheduler
+2024-12-03 16:29:29 STIMELA.first-gen.kgb INFO: setting scheduler memory limit to 3Gi
+2024-12-03 16:29:29 STIMELA.first-gen.kgb INFO: setting scheduler CPU request to 1
+2024-12-03 16:29:29 STIMELA.first-gen.kgb INFO: selecting predefined pod type 'thin' for job
+2024-12-03 16:29:29 STIMELA.first-gen.kgb INFO: setting job memory limit to 27Gi
+2024-12-03 16:29:29 STIMELA.first-gen.kgb INFO: setting job CPU request to 5
+2024-12-03 16:29:29 STIMELA.first-gen.kgb INFO: found existing PVC 'iota-efs-pvc' of size 5Gi, status is Bound
+2024-12-03 16:29:31 STIMELA.first-gen.kgb INFO: starting dask job dj-3c2dc758 to run goquartical
+2024-12-03 16:30:05 STIMELA.first-gen.kgb INFO: job running as pod dj-3c2dc758-runner
+volume-step-init# Created directory /mnt/data
+2024-12-03 16:30:06 STIMELA.first-gen.kgb INFO: starting port-forward process for http-dashboard to local port 8787
+2024-12-03 16:30:06 STIMELA.first-gen.kgb INFO:   pod started after 0:00:38
+2024-12-03 16:30:06 STIMELA.first-gen.kgb INFO: running: cd /mnt/data/iota-test; goquartical input_ms.path=s3://ratt-public-data/LBAND_LUNO_CALIBRATORS.zarr input_ms.data_column=DATA input_ms.time_chunk=0 input_ms.freq_chunk=0 input_ms.is_bda=False 'input_ms.group_by=[FIELD_ID,DATA_DESC_ID,SCAN_NUMBER]' 'input_ms.select_corr=[0,3]' 'input_ms.select_fields=[1]' 'input_ms.select_ddids=[]' 'input_ms.select_uv_range=[0.0,0.0]' input_model.recipe=MODEL_DATA input_model.beam_l_axis=X input_model.beam_m_axis=Y input_model.invert_uvw=True input_model.source_chunks=500 input_model.apply_p_jones=False output.gain_directory=/mnt/data/iota-test/gkb.qc output.log_directory=/mnt/data/iota-test/ output.log_to_terminal=True output.overwrite=True output.flags=False output.apply_p_jones_inv=False output.compute_baseline_corrections=False output.apply_baseline_corrections=False mad_flags.enable=False mad_flags.whitening=disabled mad_flags.threshold_bl=5.0 mad_flags.threshold_global=10.0 mad_flags.max_deviation=0.0 mad_flags.use_off_diagonals=False 'solver.terms=[G,K,B]' 'solver.iter_recipe=[150,150,150]' solver.propagate_flags=False solver.robust=False solver.threads=16 solver.convergence_fraction=0.99 solver.convergence_criteria=1e-06 solver.reference_antenna=2 dask.threads=1 dask.workers=2 dask.scheduler=distributed G.type=diag_complex G.solve_per=antenna G.direction_dependent=False 'G.pinned_directions=[0]' G.time_interval=0 G.freq_interval=0 G.interp_mode=reim G.interp_method=2dlinear G.respect_scan_boundaries=True G.initial_estimate=False K.type=delay K.solve_per=antenna K.direction_dependent=False 'K.pinned_directions=[0]' K.time_interval=0 K.freq_interval=0 K.interp_mode=reim K.interp_method=2dlinear K.respect_scan_boundaries=True K.initial_estimate=True B.type=diag_complex B.solve_per=antenna B.direction_dependent=False 'B.pinned_directions=[0]' B.time_interval=0 B.freq_interval=8 B.interp_mode=reim B.interp_method=2dlinear B.respect_scan_boundaries=True B.initial_estimate=False
+# 2024-12-03 14:30:07 | INFO | parser:log_final_config | Final configuration state:
+# 
+# ------------------------------------input_ms------------------------------------
+# input_ms.path                  s3://ratt-public-data/LBAND_LUNO_CALIBRATORS.zarr
+# input_ms.data_column                                                        DATA
+# input_ms.sigma_column                                                       None
+# input_ms.weight_column                                                      None
+# input_ms.time_chunk                                                            0
+# input_ms.freq_chunk                                                            0
+# input_ms.is_bda                                                            False
+# input_ms.group_by                    ['FIELD_ID', 'DATA_DESC_ID', 'SCAN_NUMBER']
+# input_ms.select_corr                                                      [0, 3]
+# input_ms.select_fields                                                       [1]
+# input_ms.select_ddids                                                         []
+# input_ms.select_uv_range                                              [0.0, 0.0]
+# --------------------------------------------------------------------------------
+# 
+# ----------------------------------input_model-----------------------------------
+# input_model.recipe                                                    MODEL_DATA
+# input_model.beam                                                            None
+# input_model.beam_l_axis                                                        X
+# input_model.beam_m_axis                                                        Y
+# input_model.invert_uvw                                                      True
+# input_model.source_chunks                                                    500
+# input_model.apply_p_jones                                                  False
+# --------------------------------------------------------------------------------
+# 
+# -------------------------------------output-------------------------------------
+# output.gain_directory                                 /mnt/data/iota-test/gkb.qc
+# output.log_directory                                        /mnt/data/iota-test/
+# output.log_to_terminal                                                      True
+# output.overwrite                                                            True
+# output.products                                                             None
+# output.columns                                                              None
+# output.flags                                                               False
+# output.apply_p_jones_inv                                                   False
+# output.subtract_directions                                                  None
+# output.net_gains                                                            None
+# output.compute_baseline_corrections                                        False
+# output.apply_baseline_corrections                                          False
+# --------------------------------------------------------------------------------
+# 
+# -----------------------------------mad_flags------------------------------------
+# mad_flags.enable                                                           False
+# mad_flags.whitening                                                     disabled
+# mad_flags.threshold_bl                                                       5.0
+# mad_flags.threshold_global                                                  10.0
+# mad_flags.max_deviation                                                      0.0
+# mad_flags.use_off_diagonals                                                False
+# --------------------------------------------------------------------------------
+# 
+# -------------------------------------solver-------------------------------------
+# solver.terms                                                     ['G', 'K', 'B']
+# solver.iter_recipe                                               [150, 150, 150]
+# solver.propagate_flags                                                     False
+# solver.robust                                                              False
+# solver.threads                                                                16
+# solver.convergence_fraction                                                 0.99
+# solver.convergence_criteria                                                1e-06
+# solver.reference_antenna                                                       2
+# --------------------------------------------------------------------------------
+# 
+# --------------------------------------dask--------------------------------------
+# dask.threads                                                                   1
+# dask.workers                                                                   2
+# dask.address                                                                None
+# dask.scheduler                                                       distributed
+# dask.scheduler_plugin                                                       True
+# --------------------------------------------------------------------------------
+# 
+# ---------------------------------------G----------------------------------------
+# G.type                                                              diag_complex
+# G.solve_per                                                              antenna
+# G.direction_dependent                                                      False
+# G.pinned_directions                                                          [0]
+# G.time_interval                                                                0
+# G.freq_interval                                                                0
+# G.load_from                                                                 None
+# G.interp_mode                                                               reim
+# G.interp_method                                                         2dlinear
+# G.respect_scan_boundaries                                                   True
+# G.initial_estimate                                                         False
+# --------------------------------------------------------------------------------
+# 
+# ---------------------------------------K----------------------------------------
+# K.type                                                                     delay
+# K.solve_per                                                              antenna
+# K.direction_dependent                                                      False
+# K.pinned_directions                                                          [0]
+# K.time_interval                                                                0
+# K.freq_interval                                                                0
+# K.load_from                                                                 None
+# K.interp_mode                                                               reim
+# K.interp_method                                                         2dlinear
+# K.respect_scan_boundaries                                                   True
+# K.initial_estimate                                                          True
+# --------------------------------------------------------------------------------
+# 
+# ---------------------------------------B----------------------------------------
+# B.type                                                              diag_complex
+# B.solve_per                                                              antenna
+# B.direction_dependent                                                      False
+# B.pinned_directions                                                          [0]
+# B.time_interval                                                                0
+# B.freq_interval                                                                8
+# B.load_from                                                                 None
+# B.interp_mode                                                               reim
+# B.interp_method                                                         2dlinear
+# B.respect_scan_boundaries                                                   True
+# B.initial_estimate                                                         False
+# --------------------------------------------------------------------------------
+# 
+# 
+# 2024-12-03 14:30:07 | INFO | preprocess:transcribe_recipe | The following model sources were obtained from --input-model-recipe: 
+#    Columns: {'MODEL_DATA'} 
+#    Sky Models: None
+# 2024-12-03 14:30:07 | INFO | executor:_execute | Initializing distributed client using scheduler address: tcp://dj-3c2dc758-scheduler.iota.svc.cluster.local:8786
+# 2024-12-03 14:30:07 | INFO | executor:_execute | Enabling scheduler plugin.
+# 2024-12-03 14:30:07 | INFO | executor:_execute | Distributed client sucessfully initialized.
+# 2024-12-03 14:30:08 | INFO | ms_handler:read_xds_list | Antenna table indicates 56 antennas were present for this observation.
+# 2024-12-03 14:30:09 | INFO | ms_handler:read_xds_list | Polarization table indicates 4 correlations are present in the measurement set - ['XX', 'XY', 'YX', 'YY'].
+# 2024-12-03 14:30:09 | INFO | ms_handler:read_xds_list | Field table indicates phase centre is at ([3.53925792 0.53248541] [ 5.14617966 -1.11198611]).
+# /usr/local/lib/python3.10/dist-packages/daskms/experimental/zarr/__init__.py:420: UserWarning: The following unsupported kwargs were ignored in xds_from_zarr: {'index_cols': ('TIME',), 'group_cols': ['FIELD_ID', 'DATA_DESC_ID', 'SCAN_NUMBER']}
+#   warnings.warn(
+# /usr/local/lib/python3.10/dist-packages/daskms/experimental/zarr/__init__.py:420: UserWarning: The following unsupported kwargs were ignored in xds_from_zarr: {'group_cols': ['__row__']}
+#   warnings.warn(
+# /usr/local/lib/python3.10/dist-packages/daskms/experimental/zarr/__init__.py:420: UserWarning: The following unsupported kwargs were ignored in xds_from_zarr: {'index_cols': ('TIME',), 'group_cols': ['FIELD_ID', 'DATA_DESC_ID', 'SCAN_NUMBER'], 'table_schema': ['MS', {'MODEL_DATA': {'dims': ('chan', 'corr')}, None: {'dims': ('chan', 'corr')}}]}
+#   warnings.warn(
+# /usr/local/lib/python3.10/dist-packages/daskms/experimental/zarr/__init__.py:420: UserWarning: The following unsupported kwargs were ignored in xds_from_zarr: {'group_cols': ['__row__']}
+#   warnings.warn(
+# /usr/local/lib/python3.10/dist-packages/daskms/experimental/zarr/__init__.py:420: UserWarning: The following unsupported kwargs were ignored in xds_from_zarr: {'group_cols': '__row__'}
+#   warnings.warn(
+# 2024-12-03 14:30:23 | SUCCESS | executor:_execute | 15.26 seconds taken to build graph.
+# 2024-12-03 14:30:23 | INFO | executor:_execute | Computation starting. Please be patient - log messages will only appear per completed chunk.
+#    Columns: {'MODEL_DATA'}
+# 2024-12-03 14:30:07 | INFO | preprocess:transcribe_recipe | The following model sources were obtained from --input-model-recipe:
+# 2024-12-03 14:46:27 | SUCCESS | executor:_execute | 964.12 seconds taken to execute graph.
+# 2024-12-03 14:46:27 | INFO | logging:log_summary_stats | 
+# Final post-solve chi-squared summary, colourised by deviation from the mean:
+#  <= 3*sigma   <= 5*sigma   <= 10*sigma   > 10*sigma         
+#   CHUNK  FLD1   FLD1   
+#          SPW0   SPW0   
+#          SCN2   SCN18  
+#     
+#   T0F0   0.41   0.11   
+# 
+2024-12-03 16:46:28 STIMELA.first-gen.kgb INFO: container state is 'running'
+2024-12-03 16:46:28 STIMELA.first-gen.kgb INFO: container state is 'running'
+2024-12-03 16:46:28 STIMELA.first-gen.kgb INFO: container state is 'terminated', exit code is 0
+2024-12-03 16:46:28 STIMELA.first-gen.kgb INFO: goquartical returns exit code 0 after 0:17:00
+2024-12-03 16:46:28 STIMELA.first-gen.kgb WARNING: kubectl port-forward process has died with code 1
+2024-12-03 16:46:29 STIMELA.first-gen.kgb INFO: deleting dask job dj-3c2dc758
